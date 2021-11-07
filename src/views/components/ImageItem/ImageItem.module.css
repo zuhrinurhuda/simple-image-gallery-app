@@ -1,0 +1,35 @@
+.galleryItem {
+  max-width: 166.66px;
+  max-height: 166.66px;
+}
+
+.galleryItem > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media only screen and (min-device-width: 320px) {
+  .galleryItem {
+    max-height: 106.66px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) {
+  .galleryItem {
+    max-height: 125px;
+  }
+}
+
+@media only screen and (min-device-width: 425px) {
+  .galleryItem {
+    max-height: 141.66px;
+  }
+}
+
+@media only screen and (min-device-width: 426px) {
+  .galleryItem {
+    max-height: 166.66px;
+  }
+}

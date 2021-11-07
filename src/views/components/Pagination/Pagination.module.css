@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+  padding: 16px;
+}
+
+.button {
+  color: #ffffff;
+  font-weight: 600;
+  height: 32px;
+  outline: none;
+  padding: 0px 16px;
+  background: #ed0226;
+  border: none;
+  border-radius: unset;
+  cursor: pointer;
+}

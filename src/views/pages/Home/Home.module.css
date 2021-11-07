@@ -1,0 +1,16 @@
+.container {
+  background: #ffffff;
+  box-shadow: rgb(108 114 124 / 16%) 0px -2px 4px 0px;
+  min-height: calc(100vh - 56px);
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-radius: unset;
+  box-sizing: border-box;
+  height: 56px;
+  padding: 16px;
+  outline: none;
+  font-size: 16px;
+}
