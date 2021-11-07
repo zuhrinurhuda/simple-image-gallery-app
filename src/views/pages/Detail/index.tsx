@@ -64,7 +64,7 @@ const Detail: React.FC = () => {
             <strong>{data?.artist_display}</strong>
           </div>
           <div>
-            {isFavorite !== -1 ? (
+            {isFavorite !== undefined && isFavorite !== -1 ? (
               <span
                 className="material-icons"
                 style={{ fontSize: 40, color: "#ed0226" }}

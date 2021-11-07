@@ -29,6 +29,7 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: rgb(108 114 124 / 16%) 0px -2px 4px 0px;
 }
 
 .material-icons,
