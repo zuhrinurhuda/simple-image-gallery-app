@@ -1,0 +1,33 @@
+.navContainer {
+  height: 56px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(108, 114, 124, 0.16) 0px -2px 4px 0px;
+  display: flex;
+  max-width: 500px;
+}
+
+.navLink {
+  padding: 8px 0px;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  font-size: 10px;
+  color: rgba(49, 53, 59, 0.68);
+  text-decoration: initial;
+  width: 50%;
+}
+
+.iconWrapper {
+  display: contents;
+}
+
+.iconWrapper > img {
+  margin-bottom: 4px;
+}
+
+.active {
+  color: #ed0226;
+}
